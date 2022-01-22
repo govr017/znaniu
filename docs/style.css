@@ -1,0 +1,87 @@
+.termtxt {
+    margin-top: 15px;
+    margin-left: 270px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: large;
+    color: lightgray;
+    background-color:#171618;
+    border-radius: 5px;
+}
+.examptxt {
+    margin-top: 15px;
+    margin-left: 270px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: large;
+    color:orange;
+    background-color:#171618;
+    border-radius: 5px;
+    
+}
+.maintxt {
+    margin-top: 5px;
+    margin-left: 270px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: large;
+    color:greenyellow;
+    background-color:#201e21;
+    border-radius: 5px;
+    
+}
+.begtxt {
+    margin-top: 70px;
+    margin-left: 270px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 70px;
+    color:greenyellow;
+    background-color:#201e21;
+    border-radius: 5px;
+    
+}
+.logo {
+    z-index: 2;
+}
+body {
+    background-color:#312f33;
+}
+nav {
+    float: none 
+}
+  
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 34px;
+    padding-left: 5px;
+  
+    position: inherit;
+}
+nav a {
+    background-color: #201e21;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 80px;
+    font-family: 'Source Code Pro', monospace;
+    color:greenyellow;
+    margin-left: 110px;
+    padding-top: 50px;
+}
+nav a:hover {
+    font-size: 85px;
+    color: gainsboro;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 200px;
+    position: fixed;
+    z-index: -1;
+    top: 0; 
+    left: 0;
+    background-color: #201e21;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
