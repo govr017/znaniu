@@ -1,6 +1,15 @@
+.htmlimgpos:hover {
+    transform: scale(1.1);
+}
+.htmlimgpos {
+    margin-left: 250px;
+    margin-top: 150px;
+    background-color: #201e21;
+    border-radius: 25px;
+}
 .termtxt {
     margin-top: 15px;
-    margin-left: 270px;
+    margin-left: 220px;
     font-family: 'Source Code Pro', monospace;
     font-size: large;
     color: lightgray;
@@ -9,7 +18,7 @@
 }
 .examptxt {
     margin-top: 15px;
-    margin-left: 270px;
+    margin-left: 220px;
     font-family: 'Source Code Pro', monospace;
     font-size: large;
     color:orange;
@@ -19,7 +28,7 @@
 }
 .maintxt {
     margin-top: 5px;
-    margin-left: 270px;
+    margin-left: 220px;
     font-family: 'Source Code Pro', monospace;
     font-size: large;
     color:greenyellow;
@@ -29,7 +38,7 @@
 }
 .begtxt {
     margin-top: 70px;
-    margin-left: 270px;
+    margin-left: 220px;
     font-family: 'Source Code Pro', monospace;
     font-size: 70px;
     color:greenyellow;
@@ -63,14 +72,14 @@ nav a {
     background-color: #201e21;
     border-radius: 15px;
     text-decoration: none;
-    font-size: 80px;
+    font-size: 40px;
     font-family: 'Source Code Pro', monospace;
     color:greenyellow;
-    margin-left: 110px;
-    padding-top: 50px;
+    margin-left: 60px;
+    padding-top: 100px;
 }
 nav a:hover {
-    font-size: 85px;
+    font-size: 45px;
     color: gainsboro;
 }
 
