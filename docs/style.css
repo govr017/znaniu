@@ -37,6 +37,7 @@
     
 }
 .begtxt {
+    text-decoration: none;
     margin-top: 70px;
     margin-left: 220px;
     font-family: 'Source Code Pro', monospace;
@@ -48,6 +49,9 @@
 }
 .logo {
     z-index: 2;
+}
+a {
+    text-decoration: none;
 }
 body {
     background-color:#312f33;
