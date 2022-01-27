@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>Znaniu/csscourse1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width= device-width, intial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body>
+    <div class="sidenav">
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <img src="cat2.png" alt="cat" class="logo">
+                <a href="index.html">$main</a>
+                <a href="https://github.com/govr017">$создатель</a>
+                <a href="donate.html">$донат</a>
+                <a href="terms.html">$термины</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="begtxt">Основы</div>
+    <div class="maintxt">CSS - это язык описания внешнего вида документа. В CSS можно изменить по сути всё что угодно о том как что то выглядит на вебсайте. В качестве первого урока мы разберём синтаксис(как всё пишется). Синтаксис CSS выглядит примерно вот так:
+    </div>
+    <div class="examptxt">.maintxt { <br>
+        margin-top: 5px; <br>
+        margin-left: 220px; <br>
+        font-family: 'Source Code Pro', monospace; <br>
+        font-size: large; <br>
+        color:greenyellow; <br>
+        background-color:#201e21; <br>
+        border-radius: 5px; <br>
+        
+    }</div>
+    <div class="examptxt">body { <br>
+        background-color:#312f33; <br>
+    }</div> &lt;&gt;
+    <div class="maintxt">Как можно заметить код в CSS начинается с декларации что менять. Если перед названием стоит точка то тогда это класс и его можно будет использовать на чём угодно. Если хочется чтобы каждый определённый тег HTML имел одни и те же свойства(например у всех тегов p чтобы былы большие буквы) то тогда точку писать не надо и надо написать название тега прям как в примере 2.</div>
+    <div class="maintxt">Чтобы использовать нами написанный код в CSS то можно добавить его к уже существующему тегу(добавив параметр class="вашкласс") но если текст без тега или нужно добавить второй класс то можно воспользоваться тегом div</div>
+    <div class="examptxt">&lt;div class="maintxt">Чтобы использовать нами написанный код в CSS то можно добавить его к уже существующему тегу(добавив параметр class="вашкласс") но если текст без тега или нужно добавить второй класс то можно воспользоваться тегом div&lt;/div></div>
+    <div class="maintxt">Задание: Создать файл style.css в корневой папке сайта. Добавить &lt;link rel="stylesheet" href="style.css"> в head сайта. Сделать 1 класс который делает шрифт больше и изменить тег p чтобы он делал шрифт меньше. Добавить div с классом и 2 тега p с текстом внутри них.</div>
+</body>

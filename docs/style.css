@@ -1,5 +1,14 @@
+.cssimgpos:hover {
+    transform: scale(1.1);
+}
 .htmlimgpos:hover {
     transform: scale(1.1);
+}
+.cssimgpos {
+    margin-left: 60px;
+    margin-top: 150px;
+    background-color: #201e21;
+    border-radius: 25px;
 }
 .htmlimgpos {
     margin-left: 250px;
