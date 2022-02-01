@@ -10,6 +10,15 @@
 .htmlimgpos:hover {
     transform: scale(1.1);
 }
+.gitimgpos:hover {
+    transform: scale(1.1);
+}
+.gitimgpos {
+    margin-left: 250px;
+    margin-top: 100px;
+    background-color: #201e21;
+    border-radius: 25px;
+}
 .cssimgpos {
     margin-left: 60px;
     margin-top: 150px;
